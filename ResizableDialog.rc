@@ -1,0 +1,260 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    LTEXT           "ATL dialog window sample",IDC_STATIC,7,16,102,12
+END
+
+IDD_SAMPLEACTIVEXDIALOG DIALOG DISCARDABLE  0, 0, 236, 137
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CLIPCHILDREN | 
+    WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,179,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,179,24,50,14
+END
+
+IDD_WMPACTIVEXDIALOG DIALOG DISCARDABLE  0, 0, 236, 137
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CLIPCHILDREN | 
+    WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,179,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,179,24,50,14
+    CONTROL         "",IDC_MEDIAPLAYER1,
+                    "{22D6F312-B0F6-11D0-94AB-0080C74C7E95}",WS_TABSTOP,13,
+                    15,151,115
+END
+
+IDD_WEBBROWSERAXDIALOG DIALOG DISCARDABLE  0, 0, 268, 182
+STYLE WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Web browser Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Go",IDC_NAVIGATE,230,7,31,14
+    CONTROL         "",IDC_EXPLORER1,"{8856F961-340A-11D0-A96B-00C04FD705A2}",
+                    WS_TABSTOP,7,27,254,148
+    EDITTEXT        IDC_EDITURL,7,7,219,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_SAMPLEACTIVEXDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 229
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_WMPACTIVEXDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 229
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_WEBBROWSERAXDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 261
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_APPICON             ICON    DISCARDABLE     "res\\App.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_WMPACTIVEXDIALOG DLGINIT
+BEGIN
+    IDC_MEDIAPLAYER1, 0x376, 340, 0
+0x0000, 0x0000, 0x0001, 0x0000, 0x1776, 0x0000, 0x1354, 0x0000, 0x0003, 
+0xffff, 0xffff, 0x000b, 0x0000, 0x000b, 0xffff, 0x000b, 0xffff, 0x000b, 
+0xffff, 0x000b, 0xffff, 0x0000, 0x0002, 0x0000, 0x0000, 0x000b, 0x0000, 
+0x0003, 0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0005, 0x0000, 
+0x0000, 0x0000, 0x4014, 0x0008, 0x0002, 0x0000, 0x0000, 0x000b, 0xffff, 
+0x0003, 0x0000, 0x0000, 0x0005, 0x0000, 0x0000, 0x0000, 0xbff0, 0x0003, 
+0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0013, 0x0000, 0x0000, 
+0x0013, 0xffff, 0x00ff, 0x0003, 0x0000, 0x0000, 0x0003, 0x0004, 0x0000, 
+0x000b, 0xffff, 0x000b, 0xffff, 0x000b, 0xffff, 0x000b, 0x0000, 0x000b, 
+0xffff, 0x0008, 0x0002, 0x0000, 0x0000, 0x000b, 0xffff, 0x0003, 0xffff, 
+0xffff, 0x000b, 0x0000, 0x0003, 0x0001, 0x0000, 0x000b, 0x0000, 0x0005, 
+0x0000, 0x0000, 0x0000, 0x3ff0, 0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 
+0x0002, 0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0005, 0x0000, 
+0x0000, 0x0000, 0xbff0, 0x0005, 0x0000, 0x0000, 0x0000, 0xbff0, 0x000b, 
+0xffff, 0x000b, 0xffff, 0x000b, 0xffff, 0x000b, 0x0000, 0x000b, 0x0000, 
+0x000b, 0x0000, 0x000b, 0xffff, 0x000b, 0x0000, 0x000b, 0xffff, 0x000b, 
+0xffff, 0x000b, 0x0000, 0x000b, 0x0000, 0x000b, 0xffff, 0x000b, 0x0000, 
+0x000b, 0xffff, 0x000b, 0x0000, 0x0003, 0x0000, 0x0000, 0x0013, 0x0000, 
+0x0000, 0x000b, 0x0000, 0x0003, 0xfd26, 0xffff, 0x000b, 0x0000, 
+    0
+END
+
+IDD_WEBBROWSERAXDIALOG DLGINIT
+BEGIN
+    IDC_EXPLORER1, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x2761, 0x0000, 0x18e8, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SAMPLEDIALOG DIALOG DISCARDABLE  0, 0, 186, 94
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CLIPCHILDREN | 
+    WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Sample resizable dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    CONTROL         "Tree2",IDC_TREE1,"SysTreeView32",WS_BORDER | WS_TABSTOP,
+                    7,7,115,80
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SAMPLEDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
